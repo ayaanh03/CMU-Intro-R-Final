@@ -1,0 +1,20 @@
+unnamed-chunk-2	pros.dat	read.table
+unnamed-chunk-3	dim	pros.dat	names	colnames
+unnamed-chunk-4	colMeans	pros.dat	apply	sd
+unnamed-chunk-5	i	ncol	pros.dat	plot	svi	names
+unnamed-chunk-6	hist	pros.dat	lcavol	which	svi	dens1	density	dens0	lines	legend	c
+unnamed-chunk-7	t.test.by.ind	stopifnot	all	ind	%in%	c	return	t.test	x	tests	lapply	pros.dat	svi	typeof
+unnamed-chunk-8	tests	a	unlist	typeof	lapply	x	return	names
+unnamed-chunk-9	rio	read.csv
+unnamed-chunk-10	typeof	rio	dim	colnames	a	complete.cases	length
+unnamed-chunk-11	print	nrow	rio	length	unique	nationality	a	levels	b	vector	n	which	sort
+unnamed-chunk-12	c	sum	rio	gold	silver	bronze
+unnamed-chunk-13	total	as.integer	rowSums	rio	cbind	order	name	gold	silver	which
+unnamed-chunk-14	total.by.nat	tapply	rio	total	sum	nationality	sort	length	which
+unnamed-chunk-15	c	names	total.by.nat	which	b	vector	n	length	rio	nationality	sort
+unnamed-chunk-16	age	strtoi	substr	rio	date_of_birth	cbind	order	which	name	nrow
+unnamed-chunk-17	age	strtoi	substr	rio	date_of_birth	d	cbind	order	total	which	name	nrow
+unnamed-chunk-18	a	split	rio	sport	sapply	return	c	names	x	nrow	sum	gold
+unnamed-chunk-19	ret	matrix	length	a	list	names	c	i	min	age	max
+unnamed-chunk-20	create_word_table	raw	readLines	name	unlist	strsplit	tolower	return	a	print
+unnamed-chunk-21	create_word_table	raw	readLines	name	unlist	strsplit	tolower	split	sort	order	plot	lines	title	return	a	print
